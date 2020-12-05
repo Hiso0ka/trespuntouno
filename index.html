@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Head y Eventos</title>
+    <link rel="stylesheet" href="style.css">
+    <script lang="JavaScript" type="text/javascript"></script>
+
+
+
+
+</head>
+<body>
+    <script>
+
+        
+        
+        function funcion_ape() {
+            var ape = document.getElementById("ape").value;
+            var nom = document.getElementById("name").value;
+            alert ("Bienvenido "  + nom + ' ' + ape)    
+        }
+        
+        
+        
+        
+        </script>
+
+
+    <h1>Practica Bloque 3</h1>
+
+
+
+    Nombre: <input type="text" id="name" size="20" placeholder="Introduzca su nombre" >
+    Apellidos: <input type="text" name="apellidos" size="20" id="ape" placeholder="Introduzca sus apellidos" onchange="funcion_ape()">
+
+    </body>
+</html>
